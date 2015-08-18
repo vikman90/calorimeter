@@ -81,7 +81,7 @@ int main() {
 		
 		// We'll take two measuring stages in order to avoid the first peak
 		
-		for (n = 0; n < 2; n++) {
+		for (j = 0; j < 2; j++) {
 			for (i = 0; i < size; i++) {
 				fprintf(file, "%.9f\n", voltage);
 				areaPartial = (voltage - baseline) * latency;
